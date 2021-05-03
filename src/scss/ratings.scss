@@ -1,0 +1,34 @@
+.ratings {
+  &__list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 0 80px;
+
+    &__item {
+      text-align: center;
+
+      &:nth-child(1) &__box {
+        height: 216px;
+      }
+
+      &:nth-child(2) &__box {
+        height: 256px;
+      }
+
+      &:nth-child(3) &__box {
+        height: 246px;
+      }
+
+      &__box {
+        background-color: grey;
+        width: 180px;
+        height: 100px;
+      }
+
+      span:last-child {
+        font-size: 12px;
+      }
+    }
+  }
+}

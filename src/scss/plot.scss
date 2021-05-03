@@ -1,0 +1,15 @@
+.plot {
+  color: black;
+
+  &__content {
+    display: flex;
+
+    img {
+      width: 200px;
+      margin-right: 34px;
+    }
+    h3 {
+      margin: 32px 0;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import "nav-bar";
+@import "header";
+@import "plot";
+@import "characters";
+@import "ratings";
+@import "cast";
+@import "gallery";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e0e0e0;
+  margin: 0;
+}
+section {
+  padding: 24px 0;
+  border-bottom: solid #bebebe 1px;
+
+  h2 {
+    text-align: center;
+    font-weight: normal;
+    margin: 0 0 24px;
+  }
+}
+.container {
+  width: 800px;
+  margin: 0 auto; // centralizar
+}
